@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — The Balance Board Game</title>
+<!-- Keep in sync with 05-privacy-and-data-safety.md. -->
+<style>
+  :root { color-scheme: light dark; --bg: #ffffff; --fg: #1c1c1e; --muted: #5c5c63; --line: #e3e3e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0e0f12; --fg: #f2f2f5; --muted: #a1a1aa; --line: #2a2b31; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  p.meta { color: var(--muted); margin: 0 0 24px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  a { color: #0a84ff; }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy</h1>
+<p class="meta">The Balance Board Game (Android app <code>com.omriarbel.balanceboard</code>) · Developer: omriarbel · Effective 26 October 2026</p>
+
+<p>The Balance Board Game is a game played with a phone lying on a balance board. You can play without an account. This policy explains what data the app handles and why. "We" means the developer, omriarbel.</p>
+
+<h2>Data that stays on your device</h2>
+<p>The app reads your phone's motion sensor to move the bubble. These readings are processed on your device only and are never sent anywhere. Settings, a cached copy of the leaderboard, and any score or usage record waiting to be uploaded are stored on your device and are removed when you uninstall the app. Without an account, your scores never appear on the leaderboard.</p>
+
+<h2>Usage data (all players, with or without an account)</h2>
+<p>To understand how the game is played and improve it, the app sends us a small set of usage records. We collect these ourselves; no third-party analytics or advertising service is involved. We use them only for statistics about the game, never for advertising, and we never sell them.</p>
+<table>
+  <tr><th>Data</th><th>Purpose</th></tr>
+  <tr><td>A random installation ID, created by the app when it is first opened (not derived from your device, your phone number or any advertising ID)</td><td>Counting how many installations use the game and whether players come back</td></tr>
+  <tr><td>When the app is opened and closed, and how long it is in use</td><td>Understanding how long and how often the game is played</td></tr>
+  <tr><td>Game rounds: when each starts and ends, whether it was finished, its score, the number of targets hit and the points for each, and the active playing time</td><td>Understanding game difficulty and quality</td></tr>
+  <tr><td>How long the first board-placement check takes</td><td>Improving the setup instructions</td></tr>
+  <tr><td>Account events: signing in (and whether by email, code or Google), creating, signing out of and deleting an account</td><td>Understanding how accounts are used</td></tr>
+  <tr><td>App version, platform (Android) and your device's time-zone offset from UTC (not your location)</td><td>Comparing releases and seeing what time of day people play</td></tr>
+  <tr><td>Your account identifier, only while you are signed in</td><td>Linking usage to your account, so it can be deleted with it</td></tr>
+</table>
+<p>We do not collect your location, contacts, motion-sensor readings, email address or username in usage data. Nobody but us can read usage data; it is never shown to other players.</p>
+<p><strong>How long we keep it:</strong> usage records are grouped into app sessions (one period of using the app). About once a month we delete, by hand, every app session that has had no activity for 12 months, together with its game rounds and events. Usage records are therefore kept for at most 13 months after the session they belong to was last active.</p>
+<p><strong>You can turn this off at any time:</strong> on the main menu, tap <strong>Privacy</strong>, then switch off <strong>Share usage statistics</strong>. The app then stops recording usage data on your phone and removes the records it has not sent yet. It also asks our server to delete the usage data already sent from your phone: everything recorded without an account, and everything recorded while signed in to the account you are signed in to at that moment. Usage data recorded on your phone while signed in to a different account is not deleted by the switch; it is deleted when that account is deleted. If you are offline, the app keeps retrying the deletion until it succeeds. If you turn the switch back on later, the app starts with a new random installation ID, so new records are not linked to the deleted ones.</p>
+
+<h2>Data we collect if you create an account</h2>
+<p>Accounts are optional and are only used for the global leaderboard. You can create one with an email address and password, or with "Continue with Google".</p>
+<table>
+  <tr><th>Data</th><th>Purpose</th><th>Visible to other users?</th></tr>
+  <tr><td>Email address</td><td>Signing in, and sending sign-up and password-reset codes</td><td>No</td></tr>
+  <tr><td>Password (email accounts only)</td><td>Signing in (stored only in hashed form)</td><td>No</td></tr>
+  <tr><td>Google account details (Google sign-in only): your Google name, email address, profile picture link and Google account ID, as provided by Google</td><td>Signing in. We do not show your Google name or picture to anyone</td><td>No</td></tr>
+  <tr><td>Username</td><td>Your name on the leaderboard</td><td>Yes</td></tr>
+  <tr><td>Country (optional)</td><td>A flag next to your name on the leaderboard</td><td>Yes</td></tr>
+  <tr><td>Personal best score, your leaderboard rank, and the time you set your best</td><td>Leaderboard ranking</td><td>Yes. The score and rank are shown in the app; the time is included in the public leaderboard data</td></tr>
+  <tr><td>Account identifier (a random ID) and the time you created your leaderboard profile</td><td>Linking your profile to your login; keeping the leaderboard consistent</td><td>Yes, in the public leaderboard data (not shown as text in the app)</td></tr>
+</table>
+<p>The leaderboard is public: anyone using the app, or reading the leaderboard data the app downloads, can see the username, country, personal best and rank of every account with a profile, and can also read its account identifier, the time its best was set and the time its profile was created. The account identifier is a random code that does not reveal your email address or anything else about you. Your email address, password, Google account details and usage data are never visible to other users.</p>
+<p>Like any online service, our backend provider records technical data such as IP addresses in its service logs to operate and secure the service.</p>
+
+<h2>Service providers</h2>
+<p>Account, leaderboard and usage data is stored by <a href="https://supabase.com/privacy">Supabase</a>, which hosts our database and sign-in on our behalf. Sign-up and password-reset emails are sent from our Gmail address through Google's Gmail service, so Google processes your email address and the message (see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>). If you choose "Continue with Google", Google confirms your identity to us; we receive only your basic profile (name, email address, profile picture link) and never your Google password. We do not sell your data, share it with advertisers, or use it for advertising. The app contains no ads and no third-party analytics, advertising or tracking SDKs, and does not use advertising IDs.</p>
+
+<h2>Security</h2>
+<p>All data sent between the app and our backend is encrypted in transit (HTTPS). Access to account data is restricted so that players can only change their own profile. Usage data can be written by the app but cannot be read by any player; only the developer can read it.</p>
+
+<h2>Retention and deletion</h2>
+<p>Your account data is kept until you delete your account. You can delete it at any time in the app: open the menu, tap your avatar, then <strong>Delete account</strong> and <strong>Delete permanently</strong>.</p>
+<p><strong>Deleted immediately from our database:</strong> your login (email address, and your hashed password or the link to your Google account, with the Google account details), username, country, personal best and leaderboard entry, and all usage data linked to your account. That is every app session in which you were signed in, including the parts of that session before you signed in or after you signed out, with its game rounds and events. The app also removes your account's usage records still waiting on your phone, and starts using a new random installation ID.</p>
+<p><strong>Copies:</strong> our provider's service logs (which include IP addresses) and any database backups are deleted within 7 days.</p>
+<p><strong>Not deleted with your account:</strong> usage records from app sessions in which you were never signed in (for example, play before you created your account). They are not linked to any account, and after an in-app deletion the app no longer uses their installation ID. Because nothing links them to you, we cannot find them to delete them early; they are deleted with all other usage data, at most 13 months after their last activity. To delete them as well, switch off <strong>Share usage statistics</strong> while you are still signed in, before you delete your account.</p>
+<p><strong>Signing out:</strong> usage records recorded while you were signed in that could not be uploaded when you signed out (for example, because you were offline) are deleted from your phone, so they never reach us without your account.</p>
+<p>You can also request deletion without the app: see <a href="delete-account.html">Delete your account</a>. Uninstalling the app removes everything it stored on your phone, including its installation ID and any records not yet uploaded.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children under 13, and we do not knowingly collect personal data from them. If you believe a child has created an account, contact us and we will delete it.</p>
+
+<h2>Your rights</h2>
+<p>You can access, correct (edit your profile in the app) or delete your data, and object to usage statistics by switching them off. For any request, contact us at the address below. You may also complain to your local data protection authority.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, we will update this page and its effective date.</p>
+
+<h2>Contact</h2>
+<p>omriarbel · <a href="mailto:balanceboardgame@gmail.com">balanceboardgame@gmail.com</a></p>
+</main>
+</body>
+</html>
